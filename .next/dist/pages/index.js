@@ -13,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var _jsxFileName = '/Users/joe/Documents/next_tutorial/pages/index.js?entry';
 
 exports.default = function () {
-  return _react2.default.createElement('div', {
+  return _react2.default.createElement('marquee', {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
