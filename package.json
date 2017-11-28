@@ -1,0 +1,11 @@
+{
+  "name": "my-app",
+  "dependencies": {
+    "next": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
