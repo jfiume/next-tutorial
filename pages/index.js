@@ -1,2 +1,22 @@
 import React from 'react'
-export default () => <marquee>Hello world!</marquee>
+import Head from 'next/head'
+import css from 'next/css'
+
+export default () => (
+  <div>
+    <Head>
+      <meta name="viewport" content="width=device-width, inital-scale=1" />
+    </Head>
+    <h1 className={style}>Hi. I'm mobile-ready!</h1>
+  </div>
+)
+
+const style = css({
+  color: 'red',
+  ':hover': {
+    color: 'blue'
+  },
+  '@media (max-width: 500px)': {
+    color: 'rebeccapurple'
+  }
+})
